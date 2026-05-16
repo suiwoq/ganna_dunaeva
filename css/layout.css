@@ -1,53 +1,25 @@
+/* GOOGLE FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* VARIABLES */
+
 :root {
-    --txt-color-01: #333; /*колір основного тексту*/
-    --txt-color-02: #ccc; /*колір основного тексту інверсія*/
-    --bg-color-01: #ccc; /*колір фону 1*/
-    --bg-color-02: #555; /*колір фону 2*/
-    --link-color-01: #900; /*колір покликань */
-    --link-color-02: #c00; /*колір покликань hover */
-    --btn-colorr-01: #900;  /*колір кнопок 1 */
-    --btn-colorr-02: #c00;  /*колір кнопок 2 */
-    --mob-padding: 20px;  /*відступи до контенту на мобільному */
-    --ipad-padding: 40px; 
-    --max-width: 1600px;
-    --ver-desk-pad: 50px; /*відступи по вертикалі у секціях desktop*/
-    --ver-mob-pad: 25px; /*відступи по вертикалі у секціях mobile*/
+
+    --color-light: #ffffff;
+    --color-dark: #000000;
+
+    --font-main: 'Montserrat', sans-serif;
 }
 
-html, body {
-    font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 1.4;
-    color: var(--txt-color-01);
-} 
+/* RESET */
 
-h1, h2, h3, h4, h5, h6 {
-     font-family: "Fira Sans", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  margin-bottom: 1em;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-p{
-    margin-bottom: 1em;
-}
-
-h1{font-size: 2rem;} /* REM коеф. від font-size body */
-h2{font-size: 1.5rem;}
-h3{ font-size:1.35rem; } 
-
-header,
-section,
-footer {
-    padding-top: var(--ver-desk-pad);
-    padding-bottom: var(--ver-desk-pad);
-}
-
-.inside {
-    max-width: var(--max-width);
-    margin-left: auto;
-    margin-right: auto;
+body {
+    font-family: var(--font-main);
 }
