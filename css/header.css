@@ -4,7 +4,28 @@
     min-height: 100vh;
 
     background-image: url("../img/bg.png");
-
     background-size: cover;
     background-position: center;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.header h1 {
+
+    color: white;
+    font-size: 80px;
+
+    margin-bottom: 20px;
+}
+
+.header p {
+
+    color: white;
+    font-size: 28px;
 }
